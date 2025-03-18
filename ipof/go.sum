@@ -1,2 +1,6 @@
+github.com/JustMrNone/ipof v0.0.0-20250318190202-1ffac4ce53d3 h1:GpfX2P0syiV/3di1bxnOoRzBtBIsUyGF2bxay+HkboE=
+github.com/JustMrNone/ipof v0.0.0-20250318190202-1ffac4ce53d3/go.mod h1:DOzaYFMzvW4ZYUuJqSRre6u89ofDqTlbHpiD4kjfZSc=
 github.com/JustMrNone/ipof/domaintoip v0.0.0-20250318165116-2a95de9a4d42 h1:dGXnCkUTDbx7SvPPKY6Iad/ASGQShHBzEZZ8obi4Gfk=
 github.com/JustMrNone/ipof/domaintoip v0.0.0-20250318165116-2a95de9a4d42/go.mod h1:6Yn7Tim6Quxz7PtebByAJT9r7VhTte/UrGLo6udNIwY=
+github.com/JustMrNone/ipof/domaintoip v0.0.0-20250318190202-1ffac4ce53d3 h1:992N102KocAeQzHMe2kr5sdg8GEI9Q8WUxP0Xc4zanE=
+github.com/JustMrNone/ipof/domaintoip v0.0.0-20250318190202-1ffac4ce53d3/go.mod h1:6Yn7Tim6Quxz7PtebByAJT9r7VhTte/UrGLo6udNIwY=
