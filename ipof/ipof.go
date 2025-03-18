@@ -5,5 +5,6 @@ import (
 )
 
 func main() {
+	//call the main module
 	domaintoip.Ipof()
 }
