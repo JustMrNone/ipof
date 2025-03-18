@@ -25,13 +25,21 @@ jobs:
         go mod tidy
 
     - name: Build the project
-      run: go build -v ./...
+      run: |
+        cd ipof
+        go build -v ./...
 
     - name: Run tests
-      run: go test -v ./...
-
+      run: |
+        cd domaintoip
+        go test -v ./...
+        
     - name: Verify formatting
-      run: go fmt ./...
+      run: |
+        cd ipof
+        go fmt ./...
 
     - name: Lint the code
-      run: go vet ./...
+      run: |
+        cd ipof
+        go vet ./...

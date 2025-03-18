@@ -9,7 +9,7 @@ import (
 func Ipof() {
 	var domain string
 
-	// Check if a keyword argument is provided
+	// Check if a keyword argument is provided or not
 	if len(os.Args) > 1 {
 		domain = os.Args[1]
 	} else {
