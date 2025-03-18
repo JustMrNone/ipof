@@ -13,12 +13,13 @@ IPOF is a simple Go project that retrieves the IPv4 and IPv6 addresses of a give
 1. Clone the repository:
    ```bash
    git clone https://github.com/JustMrNone/ipof.git
-   cd ipof
-   go build
+   cd ipof/ipof
    ```
 
-2. Run the application:
+2. Build and Run the application:
    ```bash
+   go build ipof.go
+   
    # Interactive mode
    .\ipof.exe
 
@@ -28,7 +29,19 @@ IPOF is a simple Go project that retrieves the IPv4 and IPv6 addresses of a give
 
 3. Install globally:
    ```bash
+   #Linux/Mac
+   export PATH=$PATH:/path/to/your/install/directory
+   #WIN
+   set PATH=%PATH%;C:\path\to\your\install\directory
+   # Adds the specified directory to the system PATH environment variable
+   
+   OR
+   
+   go env -w GOBIN=C:\path\to\your\bin
+   # Sets the GOBIN environment variable to the specified directory
+
    go install
+   
    ipof example.com
    ```
 
