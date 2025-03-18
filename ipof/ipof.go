@@ -1,7 +1,7 @@
 package main
 
 import (
-	"example.com/domaintoip"
+	"github.com/JustMrNone/ipof/domaintoip"
 )
 
 func main() {
