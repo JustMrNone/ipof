@@ -29,6 +29,9 @@ IPOF is a simple Go project that retrieves the IPv4 and IPv6 addresses of a give
 
 3. Install globally:
    ```bash
+   #Linux/Mac
+   export PATH=$PATH:/path/to/your/install/directory
+   #WIN
    set PATH=%PATH%;C:\path\to\your\install\directory
    # Adds the specified directory to the system PATH environment variable
    
