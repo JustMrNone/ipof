@@ -1,11 +1,11 @@
 # IPOF (IP of Domain)
 
-IPOF is a simple Go project that retrieves the IPv4 and IPv6 addresses of a given domain name. It consists of two modules:
+IPOF is a simple Go project that retrieves the IPv4 addresses of a given domain name. It consists of two modules:
 1. **domaintoip**: A library that provides functionality to resolve domain names to their IP addresses.
 2. **ipof**: A command-line application that uses the `domaintoip` library to interact with users and display the resolved IP addresses.
 
 ## Features
-- Resolves both IPv4 and IPv6 addresses for a given domain
+- Resolves both IPv4 addresses for a given domain
 - Interactive mode for entering domain names
 - Command-line argument support for non-interactive usage
 
