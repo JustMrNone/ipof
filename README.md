@@ -44,7 +44,7 @@ IPOF is a simple Go project that retrieves the IPv4 addresses of a given domain 
    
    ipof example.com
    ```
-
+   
 ## Requirements
 - Go 1.21 or higher
 
